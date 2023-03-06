@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    form {
+      background-color: rgb(131, 195, 195);
+      margin-left: 130px;
+      margin-right: 100px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      width: 500px;
+      height: 175px;
+    }
+    div{
+      background-color: rgb(131, 195, 195);
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      width: 200px;
+      height: 100px; 
+    }
+
+    
+
+  
+  </style>
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Personal details</legend>
+      <label for="fname">First name</label>
+      <input type="text" id="fname" name="fname"> <br><br>
+      <label for="fname">Last name</label>
+      <input type="text" id="lname" name="lname"> <br><br>
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email"> <br><br>
+
+
+      <label class="checkbox-inline">
+        <input type="checkbox" value="">Gender
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value="">Male
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value="">Female
+      </label>
+  </form>
+</fieldset>
+  <form>
+    <fieldset>
+
+      <legend>City</legend>
+      <label for="city">City</label>
+      <select name="city" id="city">
+        <option value="amman">Amman</option>
+      </select>
+  </form>
+</fieldset>
+  <form >
+  <button style="margin-left: 120px;" type="button">Subscribe</button>
+</form>
+
+</body>
+
+</html>
